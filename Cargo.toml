@@ -1,0 +1,23 @@
+[package]
+name = "iface"
+authors = ["Nathaniel Bennett <me[at]nathanielbennett[dotcom]>"]
+description = "Cross-platform network interface management"
+# 1.66 - `std::os::fd` stabilized
+rust-version = "1.66" 
+version = "0.0.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/pkts-rs/iface"
+keywords = ["interface", "ifconfig", "network"]
+categories = ["network-programming"]
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
+[features]
+default = []
+
+[dependencies]
+
+
